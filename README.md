@@ -1,2 +1,2 @@
 # testautomation
-Test Automation Repository to upload usefull innovative test automation tools
+Test Automation Repository to upload useful innovative test automation tools
