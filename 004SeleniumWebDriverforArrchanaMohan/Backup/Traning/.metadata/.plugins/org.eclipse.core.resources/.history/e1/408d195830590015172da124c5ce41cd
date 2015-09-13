@@ -1,0 +1,10 @@
+#Find More Tutorials On WebDriver at -> http://software-testing-tutorials-automation.blogspot.com
+
+#Buttons Locators
+btn_Calc_PrePart=//*[@id='
+btn_Calc_PostPart=']
+btn_Plus=//input[@id='plus']
+btn_Equals=//input[@id='equals']
+
+#Textbox Locators
+txt_Result=//input[@id='Resultbox']
