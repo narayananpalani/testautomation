@@ -1,0 +1,11 @@
+2015-09-11 17:57:49,752 - rootLogger - INFO - All Excel Files Initialised successfully.
+2015-09-11 17:57:49,752 - rootLogger - INFO - Execution started for SuiteOneBase.
+2015-09-11 17:57:49,940 - rootLogger - INFO - All Excel Files Initialised successfully.
+2015-09-11 17:57:49,940 - rootLogger - INFO - SuiteOneCaseOne : Execution started.
+2015-09-11 17:58:17,608 - rootLogger - INFO - SuiteOneCaseOne : Reporting test data set line 1 as PASS In excel.
+2015-09-11 17:58:40,183 - rootLogger - INFO - SuiteOneCaseOne : Reporting test data set line 2 as PASS In excel.
+2015-09-11 17:58:40,215 - rootLogger - INFO - SuiteOneCaseOne : Reporting test case as PASS In excel.
+2015-09-11 17:58:40,513 - rootLogger - INFO - All Excel Files Initialised successfully.
+2015-09-11 17:59:13,326 - rootLogger - INFO - All Excel Files Initialised successfully.
+2015-09-11 17:59:13,373 - rootLogger - INFO - All Excel Files Initialised successfully.
+2015-09-11 18:00:03,579 - rootLogger - INFO - All Excel Files Initialised successfully.
