@@ -1,0 +1,1059 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">3 suites, 6 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-SuiteOne">
+              <span class="suite-name border-failed">SuiteOne</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-SuiteOne">
+                    <span>E:\backup\Training\WDDF\SuiteOne.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-SuiteOne">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-SuiteOne">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-SuiteOne">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-SuiteOne">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-SuiteOne">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-SuiteOne">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">4 methods, 2 failed,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-SuiteOne" class="hide-methods failed suite-SuiteOne"> (hide)</a> <!-- hide-methods failed suite-SuiteOne -->
+                      <a href="#" panel-name="suite-SuiteOne" class="show-methods failed suite-SuiteOne"> (show)</a> <!-- show-methods failed suite-SuiteOne -->
+                    </span>
+                    <div class="method-list-content failed suite-SuiteOne">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteOne" title="com.stta.SuiteOne.SuiteOneCaseTwo" hash-for-method="SuiteOneCaseTwoTest(9, 3, 2, 4)">SuiteOneCaseTwoTest(9, 3, 2, 4)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteOne" title="com.stta.SuiteOne.SuiteOneCaseTwo" hash-for-method="SuiteOneCaseTwoTest(4, 2, 5, -3)">SuiteOneCaseTwoTest(4, 2, 5, -3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-SuiteOne -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-SuiteOne" class="hide-methods passed suite-SuiteOne"> (hide)</a> <!-- hide-methods passed suite-SuiteOne -->
+                      <a href="#" panel-name="suite-SuiteOne" class="show-methods passed suite-SuiteOne"> (show)</a> <!-- show-methods passed suite-SuiteOne -->
+                    </span>
+                    <div class="method-list-content passed suite-SuiteOne">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteOne" title="com.stta.SuiteOne.SuiteOneCaseOne" hash-for-method="SuiteOneCaseOneTest(9, 5, 7, 21)">SuiteOneCaseOneTest(9, 5, 7, 21)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteOne" title="com.stta.SuiteOne.SuiteOneCaseOne" hash-for-method="SuiteOneCaseOneTest(3, 7, 3, 13)">SuiteOneCaseOneTest(3, 7, 3, 13)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-SuiteOne -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-SuiteTwo">
+              <span class="suite-name border-failed">SuiteTwo</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-SuiteTwo">
+                    <span>E:\backup\Training\WDDF\SuiteTwo.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-SuiteTwo">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-SuiteTwo">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-SuiteTwo">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-SuiteTwo">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-SuiteTwo">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-SuiteTwo">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">4 methods, 4 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-SuiteTwo" class="hide-methods failed suite-SuiteTwo"> (hide)</a> <!-- hide-methods failed suite-SuiteTwo -->
+                      <a href="#" panel-name="suite-SuiteTwo" class="show-methods failed suite-SuiteTwo"> (show)</a> <!-- show-methods failed suite-SuiteTwo -->
+                    </span>
+                    <div class="method-list-content failed suite-SuiteTwo">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteTwo" title="com.stta.SuiteTwo.SuiteTwoCaseOne" hash-for-method="SuiteTwoCaseOneTest(3, 7, 21)">SuiteTwoCaseOneTest(3, 7, 21)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteTwo" title="com.stta.SuiteTwo.SuiteTwoCaseOne" hash-for-method="SuiteTwoCaseOneTest(9, 5, 45)">SuiteTwoCaseOneTest(9, 5, 45)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteTwo" title="com.stta.SuiteTwo.SuiteTwoCaseTwo" hash-for-method="SuiteTwoCaseTwoTest(9, 3, 3)">SuiteTwoCaseTwoTest(9, 3, 3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteTwo" title="com.stta.SuiteTwo.SuiteTwoCaseTwo" hash-for-method="SuiteTwoCaseTwoTest(4, 2, 2)">SuiteTwoCaseTwoTest(4, 2, 2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-SuiteTwo -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-SuiteOne" class="panel SuiteOne">
+          <div class="suite-SuiteOne-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.stta.SuiteOne.SuiteOneCaseTwo</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SuiteOneCaseTwoTest(9, 3, 2, 4)">
+                  </a> <!-- SuiteOneCaseTwoTest(9, 3, 2, 4) -->
+                  <span class="method-name">SuiteOneCaseTwoTest</span>
+                  <span class="parameters">(9, 3, 2, 4)</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.stta.SuiteOne.SuiteOneCaseTwo.SuiteOneCaseTwoTest(SuiteOneCaseTwo.java:87)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SuiteOneCaseTwoTest(4, 2, 5, -3)">
+                  </a> <!-- SuiteOneCaseTwoTest(4, 2, 5, -3) -->
+                  <span class="method-name">SuiteOneCaseTwoTest</span>
+                  <span class="parameters">(4, 2, 5, -3)</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.stta.SuiteOne.SuiteOneCaseTwo.SuiteOneCaseTwoTest(SuiteOneCaseTwo.java:87)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteOne-class-failed -->
+          <div class="suite-SuiteOne-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.stta.SuiteOne.SuiteOneCaseOne</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SuiteOneCaseOneTest(9, 5, 7, 21)">
+                  </a> <!-- SuiteOneCaseOneTest(9, 5, 7, 21) -->
+                  <span class="method-name">SuiteOneCaseOneTest</span>
+                  <span class="parameters">(9, 5, 7, 21)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SuiteOneCaseOneTest(3, 7, 3, 13)">
+                  </a> <!-- SuiteOneCaseOneTest(3, 7, 3, 13) -->
+                  <span class="method-name">SuiteOneCaseOneTest</span>
+                  <span class="parameters">(3, 7, 3, 13)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteOne-class-passed -->
+        </div> <!-- panel SuiteOne -->
+        <div panel-name="suite-Calc_Suite" class="panel Calc_Suite">
+        </div> <!-- panel Calc_Suite -->
+        <div panel-name="suite-SuiteTwo" class="panel SuiteTwo">
+          <div class="suite-SuiteTwo-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.stta.SuiteTwo.SuiteTwoCaseOne</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SuiteTwoCaseOneTest(3, 7, 21)">
+                  </a> <!-- SuiteTwoCaseOneTest(3, 7, 21) -->
+                  <span class="method-name">SuiteTwoCaseOneTest</span>
+                  <span class="parameters">(3, 7, 21)</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.stta.SuiteTwo.SuiteTwoCaseOne.SuiteTwoCaseOneTest(SuiteTwoCaseOne.java:86)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SuiteTwoCaseOneTest(9, 5, 45)">
+                  </a> <!-- SuiteTwoCaseOneTest(9, 5, 45) -->
+                  <span class="method-name">SuiteTwoCaseOneTest</span>
+                  <span class="parameters">(9, 5, 45)</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.stta.SuiteTwo.SuiteTwoCaseOne.SuiteTwoCaseOneTest(SuiteTwoCaseOne.java:86)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteTwo-class-failed -->
+          <div class="suite-SuiteTwo-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.stta.SuiteTwo.SuiteTwoCaseTwo</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SuiteTwoCaseTwoTest(9, 3, 3)">
+                  </a> <!-- SuiteTwoCaseTwoTest(9, 3, 3) -->
+                  <span class="method-name">SuiteTwoCaseTwoTest</span>
+                  <span class="parameters">(9, 3, 3)</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.stta.SuiteTwo.SuiteTwoCaseTwo.SuiteTwoCaseTwoTest(SuiteTwoCaseTwo.java:86)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SuiteTwoCaseTwoTest(4, 2, 2)">
+                  </a> <!-- SuiteTwoCaseTwoTest(4, 2, 2) -->
+                  <span class="method-name">SuiteTwoCaseTwoTest</span>
+                  <span class="parameters">(4, 2, 2)</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.stta.SuiteTwo.SuiteTwoCaseTwo.SuiteTwoCaseTwoTest(SuiteTwoCaseTwo.java:86)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteTwo-class-failed -->
+        </div> <!-- panel SuiteTwo -->
+        <div panel-name="test-xml-SuiteOne" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\backup\Training\WDDF\SuiteOne.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;SuiteOne&quot;&gt;
+  &lt;test name=&quot;SuiteOneCaseOne&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.stta.SuiteOne.SuiteOneCaseOne&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SuiteOneCaseOne --&gt;
+  &lt;test name=&quot;SuiteOneCaseTwo&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.stta.SuiteOne.SuiteOneCaseTwo&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SuiteOneCaseTwo --&gt;
+&lt;/suite&gt; &lt;!-- SuiteOne --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-Calc_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\backup\Training\WDDF\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Calc Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.stta.utility.ScreenshotUtility&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;suite-files&gt;
+    &lt;suite-file path=&quot;./SuiteOne.xml&quot;/&gt;
+    &lt;suite-file path=&quot;./SuiteTwo.xml&quot;/&gt;
+  &lt;/suite-files&gt;
+&lt;/suite&gt; &lt;!-- Calc Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-SuiteTwo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\backup\Training\WDDF\SuiteTwo.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;SuiteTwo&quot;&gt;
+  &lt;test name=&quot;SuiteTwoCaseOne&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.stta.SuiteTwo.SuiteTwoCaseOne&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SuiteTwoCaseOne --&gt;
+  &lt;test name=&quot;SuiteTwoCaseTwo&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.stta.SuiteTwo.SuiteTwoCaseTwo&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SuiteTwoCaseTwo --&gt;
+&lt;/suite&gt; &lt;!-- SuiteTwo --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SuiteOne" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SuiteOne</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">SuiteOneCaseOne (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">SuiteOneCaseTwo (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Calc_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Calc Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SuiteTwo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SuiteTwo</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">SuiteTwoCaseOne (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">SuiteTwoCaseTwo (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SuiteOne" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SuiteOne</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Calc_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Calc Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SuiteTwo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SuiteTwo</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SuiteOne" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SuiteOne</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SuiteOne');
+function tableData_SuiteOne() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(4);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'SuiteOneCaseOneTest')
+data.setCell(0, 2, 'com.stta.SuiteOne.SuiteOneCaseOne')
+data.setCell(0, 3, 25931);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'SuiteOneCaseTwoTest')
+data.setCell(1, 2, 'com.stta.SuiteOne.SuiteOneCaseTwo')
+data.setCell(1, 3, 13962);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'SuiteOneCaseOneTest')
+data.setCell(2, 2, 'com.stta.SuiteOne.SuiteOneCaseOne')
+data.setCell(2, 3, 4439);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'SuiteOneCaseTwoTest')
+data.setCell(3, 2, 'com.stta.SuiteOne.SuiteOneCaseTwo')
+data.setCell(3, 3, 2966);
+window.suiteTableData['SuiteOne']= { tableData: data, tableDiv: 'times-div-SuiteOne'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 47 seconds</span>
+              <div id="times-div-SuiteOne">
+              </div> <!-- times-div-SuiteOne -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Calc_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Calc Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Calc_Suite');
+function tableData_Calc_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(0);
+window.suiteTableData['Calc_Suite']= { tableData: data, tableDiv: 'times-div-Calc_Suite'}
+return data;
+}
+              </script>
+              <div id="times-div-Calc_Suite">
+              </div> <!-- times-div-Calc_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SuiteTwo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SuiteTwo</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SuiteTwo');
+function tableData_SuiteTwo() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(4);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'SuiteTwoCaseOneTest')
+data.setCell(0, 2, 'com.stta.SuiteTwo.SuiteTwoCaseOne')
+data.setCell(0, 3, 13061);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'SuiteTwoCaseTwoTest')
+data.setCell(1, 2, 'com.stta.SuiteTwo.SuiteTwoCaseTwo')
+data.setCell(1, 3, 12150);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'SuiteTwoCaseTwoTest')
+data.setCell(2, 2, 'com.stta.SuiteTwo.SuiteTwoCaseTwo')
+data.setCell(2, 3, 3250);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'SuiteTwoCaseOneTest')
+data.setCell(3, 2, 'com.stta.SuiteTwo.SuiteTwoCaseOne')
+data.setCell(3, 3, 3230);
+window.suiteTableData['SuiteTwo']= { tableData: data, tableDiv: 'times-div-SuiteTwo'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 31 seconds</span>
+              <div id="times-div-SuiteTwo">
+              </div> <!-- times-div-SuiteTwo -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SuiteOne" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SuiteOne</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Calc_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Calc Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SuiteTwo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SuiteTwo</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SuiteOne" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Calc_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SuiteTwo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SuiteOne" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.stta.SuiteOne.SuiteOneCaseTwo</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">checkSuiteToRun</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.stta.SuiteOne.SuiteOneCaseOne</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkCaseToRun</span>
+                <span class="method-start">4807 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">SuiteOneCaseOneTest(9, 5, 7, 21)</span>
+                <span class="method-start">5010 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reporterDataResults</span>
+                <span class="method-start">31613 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">SuiteOneCaseOneTest(3, 7, 3, 13)</span>
+                <span class="method-start">31633 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reporterDataResults</span>
+                <span class="method-start">36525 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">36567 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.stta.SuiteOne.SuiteOneCaseTwo</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkCaseToRun</span>
+                <span class="method-start">36849 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SuiteOneCaseTwoTest(9, 3, 2, 4)</span>
+                <span class="method-start">36880 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reporterDataResults</span>
+                <span class="method-start">51357 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SuiteOneCaseTwoTest(4, 2, 5, -3)</span>
+                <span class="method-start">51389 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reporterDataResults</span>
+                <span class="method-start">54730 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">54746 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.stta.SuiteTwo.SuiteTwoCaseTwo</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">checkSuiteToRun</span>
+                <span class="method-start">54823 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.stta.SuiteTwo.SuiteTwoCaseOne</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkCaseToRun</span>
+                <span class="method-start">54963 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SuiteTwoCaseOneTest(9, 5, 45)</span>
+                <span class="method-start">55073 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reporterDataResults</span>
+                <span class="method-start">68681 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SuiteTwoCaseOneTest(3, 7, 21)</span>
+                <span class="method-start">68696 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reporterDataResults</span>
+                <span class="method-start">72312 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">72327 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.stta.SuiteTwo.SuiteTwoCaseTwo</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkCaseToRun</span>
+                <span class="method-start">72406 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SuiteTwoCaseTwoTest(9, 3, 3)</span>
+                <span class="method-start">72451 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reporterDataResults</span>
+                <span class="method-start">85038 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SuiteTwoCaseTwoTest(4, 2, 2)</span>
+                <span class="method-start">85054 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reporterDataResults</span>
+                <span class="method-start">88710 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">88726 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Calc_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.stta.SuiteOne.SuiteOneCaseTwo</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">checkSuiteToRun</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.stta.SuiteOne.SuiteOneCaseOne</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkCaseToRun</span>
+                <span class="method-start">4807 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">SuiteOneCaseOneTest(9, 5, 7, 21)</span>
+                <span class="method-start">5010 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reporterDataResults</span>
+                <span class="method-start">31613 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">SuiteOneCaseOneTest(3, 7, 3, 13)</span>
+                <span class="method-start">31633 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reporterDataResults</span>
+                <span class="method-start">36525 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">36567 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.stta.SuiteOne.SuiteOneCaseTwo</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkCaseToRun</span>
+                <span class="method-start">36849 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SuiteOneCaseTwoTest(9, 3, 2, 4)</span>
+                <span class="method-start">36880 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reporterDataResults</span>
+                <span class="method-start">51357 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SuiteOneCaseTwoTest(4, 2, 5, -3)</span>
+                <span class="method-start">51389 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reporterDataResults</span>
+                <span class="method-start">54730 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">54746 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.stta.SuiteTwo.SuiteTwoCaseTwo</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">checkSuiteToRun</span>
+                <span class="method-start">54823 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.stta.SuiteTwo.SuiteTwoCaseOne</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkCaseToRun</span>
+                <span class="method-start">54963 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SuiteTwoCaseOneTest(9, 5, 45)</span>
+                <span class="method-start">55073 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reporterDataResults</span>
+                <span class="method-start">68681 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SuiteTwoCaseOneTest(3, 7, 21)</span>
+                <span class="method-start">68696 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reporterDataResults</span>
+                <span class="method-start">72312 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">72327 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.stta.SuiteTwo.SuiteTwoCaseTwo</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkCaseToRun</span>
+                <span class="method-start">72406 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SuiteTwoCaseTwoTest(9, 3, 3)</span>
+                <span class="method-start">72451 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reporterDataResults</span>
+                <span class="method-start">85038 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SuiteTwoCaseTwoTest(4, 2, 2)</span>
+                <span class="method-start">85054 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reporterDataResults</span>
+                <span class="method-start">88710 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">88726 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SuiteTwo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.stta.SuiteOne.SuiteOneCaseTwo</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">checkSuiteToRun</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.stta.SuiteOne.SuiteOneCaseOne</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkCaseToRun</span>
+                <span class="method-start">4807 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">SuiteOneCaseOneTest(9, 5, 7, 21)</span>
+                <span class="method-start">5010 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reporterDataResults</span>
+                <span class="method-start">31613 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">SuiteOneCaseOneTest(3, 7, 3, 13)</span>
+                <span class="method-start">31633 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reporterDataResults</span>
+                <span class="method-start">36525 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">36567 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.stta.SuiteOne.SuiteOneCaseTwo</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkCaseToRun</span>
+                <span class="method-start">36849 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SuiteOneCaseTwoTest(9, 3, 2, 4)</span>
+                <span class="method-start">36880 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reporterDataResults</span>
+                <span class="method-start">51357 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SuiteOneCaseTwoTest(4, 2, 5, -3)</span>
+                <span class="method-start">51389 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reporterDataResults</span>
+                <span class="method-start">54730 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">54746 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.stta.SuiteTwo.SuiteTwoCaseTwo</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">checkSuiteToRun</span>
+                <span class="method-start">54823 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.stta.SuiteTwo.SuiteTwoCaseOne</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkCaseToRun</span>
+                <span class="method-start">54963 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SuiteTwoCaseOneTest(9, 5, 45)</span>
+                <span class="method-start">55073 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reporterDataResults</span>
+                <span class="method-start">68681 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SuiteTwoCaseOneTest(3, 7, 21)</span>
+                <span class="method-start">68696 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reporterDataResults</span>
+                <span class="method-start">72312 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">72327 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.stta.SuiteTwo.SuiteTwoCaseTwo</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkCaseToRun</span>
+                <span class="method-start">72406 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SuiteTwoCaseTwoTest(9, 3, 3)</span>
+                <span class="method-start">72451 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reporterDataResults</span>
+                <span class="method-start">85038 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SuiteTwoCaseTwoTest(4, 2, 2)</span>
+                <span class="method-start">85054 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reporterDataResults</span>
+                <span class="method-start">88710 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">88726 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
