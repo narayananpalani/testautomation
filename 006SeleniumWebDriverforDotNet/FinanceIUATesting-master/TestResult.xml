@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Specflow\FinanceIUATesting-master\FinanceIUATesting-master\FinanceIUA.sln" total="0" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2015-09-05" time="23:25:18">
+  <environment nunit-version="2.6.4.14350" clr-version="2.0.50727.8009" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.6.4\bin" machine-name="SWEETHOME" user="naray_000" user-domain="SWEETHOME" />
+  <culture-info current-culture="en-GB" current-uiculture="en-US" />
+  <test-suite type="Project" name="C:\Specflow\FinanceIUATesting-master\FinanceIUATesting-master\FinanceIUA.sln" executed="True" result="Inconclusive" success="False" time="0.001" asserts="0">
+    <results>
+      <test-suite type="Assembly" name="C:\Specflow\FinanceIUATesting-master\FinanceIUATesting-master\FinanceIUA\bin\Debug\FinanceIUA.dll" executed="True" result="Inconclusive" success="False" time="0.000" asserts="0" />
+    </results>
+  </test-suite>
+</test-results>

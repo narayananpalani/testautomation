@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="true">
+  <TopNode>[0-1000]C:\Specflow\FinanceIUATesting-master\FinanceIUATesting-master\FinanceIUA.sln</TopNode>
+  <SelectedNode>[0-1000]C:\Specflow\FinanceIUATesting-master\FinanceIUATesting-master\FinanceIUA.sln</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1000]C:\Specflow\FinanceIUATesting-master\FinanceIUATesting-master\FinanceIUA.sln" Expanded="true" Checked="true" />
+    <Node UniqueName="[0-1001]C:\Specflow\FinanceIUATesting-master\FinanceIUATesting-master\FinanceIUA\bin\Debug\FinanceIUA.dll" Checked="true" />
+  </Nodes>
+</VisualState>
