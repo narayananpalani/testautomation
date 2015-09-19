@@ -1,0 +1,16 @@
+D:\WorkPrac\AutomationUsingSelenium\AutomationUsingSeleniumTest\bin\Debug\AutomationUsingSeleniumTest.dll
+D:\WorkPrac\AutomationUsingSelenium\AutomationUsingSeleniumTest\bin\Debug\AutomationUsingSeleniumTest.pdb
+D:\WorkPrac\AutomationUsingSelenium\AutomationUsingSeleniumTest\bin\Debug\WebDriver.dll
+D:\WorkPrac\AutomationUsingSelenium\AutomationUsingSeleniumTest\bin\Debug\WebDriver.Support.dll
+D:\WorkPrac\AutomationUsingSelenium\AutomationUsingSeleniumTest\bin\Debug\Newtonsoft.Json.dll
+D:\WorkPrac\AutomationUsingSelenium\AutomationUsingSeleniumTest\bin\Debug\Ionic.Zip.dll
+D:\WorkPrac\AutomationUsingSelenium\AutomationUsingSeleniumTest\bin\Debug\Castle.Core.dll
+D:\WorkPrac\AutomationUsingSelenium\AutomationUsingSeleniumTest\bin\Debug\WebDriver.pdb
+D:\WorkPrac\AutomationUsingSelenium\AutomationUsingSeleniumTest\bin\Debug\WebDriver.xml
+D:\WorkPrac\AutomationUsingSelenium\AutomationUsingSeleniumTest\bin\Debug\WebDriver.Support.pdb
+D:\WorkPrac\AutomationUsingSelenium\AutomationUsingSeleniumTest\bin\Debug\WebDriver.Support.xml
+D:\WorkPrac\AutomationUsingSelenium\AutomationUsingSeleniumTest\obj\Debug\ResolveAssemblyReference.cache
+D:\WorkPrac\AutomationUsingSelenium\AutomationUsingSeleniumTest\obj\Debug\AutomationUsingSeleniumTest.dll
+D:\WorkPrac\AutomationUsingSelenium\AutomationUsingSeleniumTest\obj\Debug\AutomationUsingSeleniumTest.pdb
+D:\WorkPrac\AutomationUsingSelenium\AutomationUsingSeleniumTest\bin\Debug\DDT.csv
+F:\Selenium Webdriver with C #\AutomationUsingSeleniumTest\obj\Debug\AutomationUsingSeleniumTest.csprojResolveAssemblyReference.cache
