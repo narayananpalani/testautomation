@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">SuiteOne</th></tr><tr><td><a href="#t0">SuiteOneCaseOne</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">719</td><td></td><td></td></tr><tr class="stripe"><td><a href="#t1">SuiteOneCaseTwo</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">187</td><td></td><td></td></tr><tr><th>Total</th><th class="num">0</th><th class="num">0</th><th class="num attn">4</th><th class="num">906</th><th colspan="2"></th></tr></table><table><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">SuiteOne</th></tr></tbody><tbody id="t0"><tr><th colspan="4">SuiteOneCaseOne &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.stta.SuiteOne.SuiteOneCaseOne</td><td><a href="#m0">closeBrowser</a></td><td rowspan="1">1442143234638</td><td rowspan="1">0</td></tr><tr><th colspan="4">SuiteOneCaseOne &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.stta.SuiteOne.SuiteOneCaseOne</td><td><a href="#m1">SuiteOneCaseOneTest</a></td><td rowspan="2">1442143234576</td><td rowspan="2">31</td></tr><tr class="failedeven"><td><a href="#m2">SuiteOneCaseOneTest</a></td></tr></tbody><tbody id="t1"><tr><th colspan="4">SuiteOneCaseTwo &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.stta.SuiteOne.SuiteOneCaseTwo</td><td><a href="#m3">closeBrowser</a></td><td rowspan="1">1442143234935</td><td rowspan="1">0</td></tr><tr><th colspan="4">SuiteOneCaseTwo &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.stta.SuiteOne.SuiteOneCaseTwo</td><td><a href="#m4">SuiteOneCaseTwoTest</a></td><td rowspan="2">1442143234810</td><td rowspan="2">31</td></tr><tr class="failedeven"><td><a href="#m5">SuiteOneCaseTwoTest</a></td></tr></tbody></table><h2>SuiteOneCaseOne</h2><h3 id="m0">com.stta.SuiteOne.SuiteOneCaseOne#closeBrowser</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.stta.TestSuiteBase.SuiteBase.closeWebBrowser(SuiteBase.java:99)
+	at com.stta.SuiteOne.SuiteOneCaseOne.closeBrowser(SuiteOneCaseOne.java:170)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m1">com.stta.SuiteOne.SuiteOneCaseOne#SuiteOneCaseOneTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>3</td><td>7</td><td>3</td><td>13</td></tr><tr><th colspan="4">Exception</th></tr><tr><td colspan="4"><div class="stacktrace">org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+null
+Build info: version: &apos;2.45.0&apos;, revision: &apos;32a636c&apos;, time: &apos;2015-03-05 22:01:35&apos;
+System info: host: &apos;SweetHome&apos;, ip: &apos;192.168.15.182&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_11&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:134)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:114)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:193)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:186)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:182)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:95)
+	at com.stta.TestSuiteBase.SuiteBase.loadWebBrowser(SuiteBase.java:75)
+	at com.stta.SuiteOne.SuiteOneCaseOne.SuiteOneCaseOneTest(SuiteOneCaseOne.java:85)
+Caused by: org.openqa.selenium.WebDriverException: Cannot create profile directory at C:\Users\NARAY_~1\AppData\Local\Temp\anonymous1555985241865465870webdriver-profile
+Build info: version: &apos;2.45.0&apos;, revision: &apos;32a636c&apos;, time: &apos;2015-03-05 22:01:35&apos;
+System info: host: &apos;SweetHome&apos;, ip: &apos;192.168.15.182&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_11&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.io.TemporaryFilesystem.createTempDir(TemporaryFilesystem.java:88)
+	at org.openqa.selenium.firefox.FirefoxProfile.layoutOnDisk(FirefoxProfile.java:398)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:89)
+	... 32 more
+... Removed 24 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m2">com.stta.SuiteOne.SuiteOneCaseOne#SuiteOneCaseOneTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>9</td><td>5</td><td>7</td><td>21</td></tr><tr><th colspan="4">Exception</th></tr><tr><td colspan="4"><div class="stacktrace">org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+null
+Build info: version: &apos;2.45.0&apos;, revision: &apos;32a636c&apos;, time: &apos;2015-03-05 22:01:35&apos;
+System info: host: &apos;SweetHome&apos;, ip: &apos;192.168.15.182&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_11&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:134)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:114)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:193)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:186)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:182)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:95)
+	at com.stta.TestSuiteBase.SuiteBase.loadWebBrowser(SuiteBase.java:75)
+	at com.stta.SuiteOne.SuiteOneCaseOne.SuiteOneCaseOneTest(SuiteOneCaseOne.java:85)
+Caused by: org.openqa.selenium.WebDriverException: Cannot create profile directory at C:\Users\NARAY_~1\AppData\Local\Temp\anonymous6435017859955724137webdriver-profile
+Build info: version: &apos;2.45.0&apos;, revision: &apos;32a636c&apos;, time: &apos;2015-03-05 22:01:35&apos;
+System info: host: &apos;SweetHome&apos;, ip: &apos;192.168.15.182&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_11&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.io.TemporaryFilesystem.createTempDir(TemporaryFilesystem.java:88)
+	at org.openqa.selenium.firefox.FirefoxProfile.layoutOnDisk(FirefoxProfile.java:398)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:89)
+	... 32 more
+... Removed 24 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h2>SuiteOneCaseTwo</h2><h3 id="m3">com.stta.SuiteOne.SuiteOneCaseTwo#closeBrowser</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.stta.TestSuiteBase.SuiteBase.closeWebBrowser(SuiteBase.java:99)
+	at com.stta.SuiteOne.SuiteOneCaseTwo.closeBrowser(SuiteOneCaseTwo.java:140)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m4">com.stta.SuiteOne.SuiteOneCaseTwo#SuiteOneCaseTwoTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>9</td><td>3</td><td>2</td><td>4</td></tr><tr><th colspan="4">Exception</th></tr><tr><td colspan="4"><div class="stacktrace">org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+null
+Build info: version: &apos;2.45.0&apos;, revision: &apos;32a636c&apos;, time: &apos;2015-03-05 22:01:35&apos;
+System info: host: &apos;SweetHome&apos;, ip: &apos;192.168.15.182&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_11&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:134)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:114)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:193)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:186)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:182)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:95)
+	at com.stta.TestSuiteBase.SuiteBase.loadWebBrowser(SuiteBase.java:75)
+	at com.stta.SuiteOne.SuiteOneCaseTwo.SuiteOneCaseTwoTest(SuiteOneCaseTwo.java:82)
+Caused by: org.openqa.selenium.WebDriverException: Cannot create profile directory at C:\Users\NARAY_~1\AppData\Local\Temp\anonymous8941340121229439902webdriver-profile
+Build info: version: &apos;2.45.0&apos;, revision: &apos;32a636c&apos;, time: &apos;2015-03-05 22:01:35&apos;
+System info: host: &apos;SweetHome&apos;, ip: &apos;192.168.15.182&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_11&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.io.TemporaryFilesystem.createTempDir(TemporaryFilesystem.java:88)
+	at org.openqa.selenium.firefox.FirefoxProfile.layoutOnDisk(FirefoxProfile.java:398)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:89)
+	... 32 more
+... Removed 24 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m5">com.stta.SuiteOne.SuiteOneCaseTwo#SuiteOneCaseTwoTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>4</td><td>2</td><td>5</td><td>-3</td></tr><tr><th colspan="4">Exception</th></tr><tr><td colspan="4"><div class="stacktrace">org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+null
+Build info: version: &apos;2.45.0&apos;, revision: &apos;32a636c&apos;, time: &apos;2015-03-05 22:01:35&apos;
+System info: host: &apos;SweetHome&apos;, ip: &apos;192.168.15.182&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_11&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:134)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:114)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:193)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:186)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:182)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:95)
+	at com.stta.TestSuiteBase.SuiteBase.loadWebBrowser(SuiteBase.java:75)
+	at com.stta.SuiteOne.SuiteOneCaseTwo.SuiteOneCaseTwoTest(SuiteOneCaseTwo.java:82)
+Caused by: org.openqa.selenium.WebDriverException: Cannot create profile directory at C:\Users\NARAY_~1\AppData\Local\Temp\anonymous3973149592740562013webdriver-profile
+Build info: version: &apos;2.45.0&apos;, revision: &apos;32a636c&apos;, time: &apos;2015-03-05 22:01:35&apos;
+System info: host: &apos;SweetHome&apos;, ip: &apos;192.168.15.182&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_11&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.io.TemporaryFilesystem.createTempDir(TemporaryFilesystem.java:88)
+	at org.openqa.selenium.firefox.FirefoxProfile.layoutOnDisk(FirefoxProfile.java:398)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:89)
+	... 32 more
+... Removed 24 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>
