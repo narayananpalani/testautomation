@@ -1,0 +1,12 @@
+2015-09-20 13:14:34,371 - rootLogger - INFO - All Excel Files Initialised successfully.
+2015-09-20 13:14:34,382 - rootLogger - INFO - Param.properties file loaded successfully.
+2015-09-20 13:14:34,384 - rootLogger - INFO - Objects.properties file loaded successfully.
+2015-09-20 13:14:34,384 - rootLogger - INFO - Execution started for SuiteOneBase.
+2015-09-20 13:14:34,588 - rootLogger - INFO - All Excel Files Initialised successfully.
+2015-09-20 13:14:34,589 - rootLogger - INFO - Param.properties file loaded successfully.
+2015-09-20 13:14:34,590 - rootLogger - INFO - Objects.properties file loaded successfully.
+2015-09-20 13:14:34,591 - rootLogger - INFO - SuiteOneCaseOne : Execution started.
+2015-09-20 13:14:48,368 - rootLogger - INFO - Firefox Driver Instance loaded successfully.
+2015-09-20 13:15:01,794 - rootLogger - INFO - SuiteOneCaseOne : Reporting test data set line 1 as PASS In excel.
+2015-09-20 13:15:01,798 - rootLogger - INFO - SuiteOneCaseOne : DataToRun = N for data set line 2 So skipping Its execution.
+2015-09-20 13:15:01,802 - rootLogger - INFO - SuiteOneCaseOne : Reporting test data set line 2 as SKIP In excel.

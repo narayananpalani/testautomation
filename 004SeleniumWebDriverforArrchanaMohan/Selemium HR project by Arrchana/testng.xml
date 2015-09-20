@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Find More Tutorials On WebDriver at -> http://software-testing-tutorials-automation.blogspot.com -->
+<suite name="Calc Suite">
+	
+	<listeners> 
+		<listener class-name="com.stta.utility.ScreenshotUtility"></listener> 
+ 	</listeners>
+ 	
+	<suite-files>
+<!-- If you have more test suites, Please add them bellow. -->
+   		<suite-file path="./SuiteOne.xml" />
+   		<suite-file path="./SuiteTwo.xml" />
+   
+  </suite-files>
+  
+ </suite>
