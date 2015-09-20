@@ -1,0 +1,13 @@
+#Find More Tutorials On WebDriver at -> http://software-testing-tutorials-automation.blogspot.com
+
+#Web Application URL
+siteURL=http://www.cda.gov.pk
+
+
+
+#set Mozilla or Chrome or IE
+testBrowser=Mozilla
+
+#Set Screenshot flags "Yes" or "No"
+screenShotOnFail=Yes
+screenShotOnPass=Yes
