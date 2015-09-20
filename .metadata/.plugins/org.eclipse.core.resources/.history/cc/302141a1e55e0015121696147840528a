@@ -1,0 +1,14 @@
+#Find More Tutorials On WebDriver at -> http://software-testing-tutorials-automation.blogspot.com
+
+#Web Application URL
+siteURL=
+//siteURL=http://only-testing-blog.blogspot.com
+siteURL=https://en.wikipedia.org/wiki/Main_Page
+
+
+#set Mozilla or Chrome or IE
+testBrowser=Mozilla
+
+#Set Screenshot flags "Yes" or "No"
+screenShotOnFail=Yes
+screenShotOnPass=Yes
