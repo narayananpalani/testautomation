@@ -1,0 +1,59 @@
+<?xml version="1.1" encoding="US-ASCII"?>
+<project>
+  <name>CandidateVerificationFormAutoTest.tpr</name>
+  <default_browser>Firefox</default_browser>
+  <test_framework>Selenium</test_framework>
+  <syntax_framework>RSpec</syntax_framework>
+  <environments>
+    <entry name="development" default="false">
+      <base_url>https://docs.google.com/forms/d/e/1FAIpQLScLxTQWgPTnbxTi3uLQNPE2z4r8S_ZRcGTbfSU--WfGNDzQ0Q/viewform</base_url>
+    </entry>
+  </environments>
+  <exclude_dirs></exclude_dirs>
+  <exclude_files></exclude_files>
+  <test_named_as>test_suite</test_named_as>
+  <spec_template>load File.dirname(__FILE__) + '/../test_helper.rb'
+
+describe "&lt;%= @info[:description]%&gt;" do
+  include TestHelper
+
+  before(:all) do    
+    @driver = $browser = Selenium::WebDriver.for(browser_type)
+    @driver.navigate.to(site_url)
+  end
+
+  after(:all) do
+    @driver.quit unless debugging?
+  end
+
+  it "&lt;%= @info[:first_test_case] %&gt;" do
+    # Test Steps go here
+  end
+
+end
+</spec_template>
+  <page_template>require File.join(File.dirname(__FILE__), "abstract_page.rb")
+
+class &lt;%= @info[:page_class]%&gt; &lt; AbstractPage
+
+  def initialize(driver)
+    super(driver, "&lt;%= @info[:page_text] %&gt;") # &lt;= TEXT UNIQUE TO THIS PAGE
+  end
+
+&lt;%= @info[:page_method] rescue nil %&gt;
+end</page_template>
+  <storywise_url></storywise_url>
+  <storywise_access_token></storywise_access_token>
+  <jira_url></jira_url>
+  <jira_project></jira_project>
+  <jira_login></jira_login>
+  <jira_password></jira_password>
+  <heart_beat>
+    <spec_suite></spec_suite>
+    <environment></environment>
+    <start_time></start_time>
+    <repeat></repeat>
+    <end_repeat></end_repeat>
+    <emails/>
+  </heart_beat>
+</project>

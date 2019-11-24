@@ -1,0 +1,96 @@
+"Software Automation Testing Secrets Revealed" by Narayanan Palani
+
+
+Who this book is written for:
+
+If you are a software testing professional, a developer, or a student looking forward to get a job in software industry, this book will help in creating automation test scripts for your web applications, this is the right guide for you! As a prerequisite, a basic knowledge in programming languages are expected, although any previous knowledge of testing tools are not necessary. 
+
+
+What you will learn from this book:
+
+Learn for software  testing job opportunities on how  automation frameworks designed and understand how to overcome limitations of not knowing such testing tools in the past 
+Setup and use automation tools for twelve different automation frameworks such as Selenium, HP UFT (formerly QTP),Ranorex, RFT and other famous automation testing tools 
+Learn how to deal with the advanced features of automation tools which will be helpful for software testing job opportunities!
+Understand how the most wanted automation technologies can be designed such as excel automation frameworks which will help for testing projects of leading clients across US,UK.
+Practice the sample projects using clear instructions from each chapter and apply for relevant software testing jobs in your desired location!
+
+31% DISCOUNT(Limited Offer) at:
+
+http://www.infibeam.com/Books/software-automation-testing-secrets-revealed-narayanan-palani/9789383952953.html
+
+Flipkart:
+http://www.flipkart.com/software-automation-testing-secrets-revealed-english/p/itmefubyqyzzvqpb?pid=9789383952953
+
+Amazon:
+
+http://www.amazon.com/Software-Automation-Testing-Secrets-Revealed/dp/9383952954/
+http://www.amazon.co.uk/Software-Automation-Testing-Secrets-Revealed/dp/9383952954/
+http://www.amazon.in/Software-Automation-Testing-Secrets-Revealed/dp/9383952954/
+http://www.amazon.it/Software-Automation-Testing-Secrets-Revealed/dp/9383952954/
+http://www.amazon.ca/Software-Automation-Testing-Secrets-Revealed/dp/9383952954/
+http://www.amazon.es/Software-Automation-Testing-Secrets-Revealed/dp/9383952954/
+http://www.amazon.de/Software-Automation-Testing-Secrets-Revealed/dp/9383952954/
+
+Table of Contents:
+
+Introduction
+Test Automation Framework
+Automation Tool Selection-Know How
+Test Requirements
+Test Plans
+Test Scenarios
+Test Cases
+Agile Scrum Based Testing-Continuous Integration
+Create a Product backlog
+Sprint
+Test Estimation
+Automation Return on Investment
+Automation Test Scheduling
+Selenium
+Sample Selenium IDE Automation Scripts on Selenium Web Page
+Selenium Test Automation Framework
+Selenium Web Driver Test Script Design Basics in JAVA
+Jason Phantom Ghost Driver Test Automation
+Maven Test Automation
+Schedule the projects in Jenkins
+Automation Framework using Selenium Web driver with DotNet
+Unified Functional Testing- Test Automation Basics
+UFT Test Automation Framework using Excel VBA
+Ranorex
+VB Scripting Excel Macro Automation
+How to Test Excel Sheet?
+IBM Rational Functional Test
+Cucumber BDD (Behavior Driven Development)
+SOA Test Automation
+SOAP Messages Automation
+Data Ware House Testing (DWH)
+Structured Query Language (SQL) for Software Testing
+Training Institute-Training Webpage Master Test Plan
+Mobile Application Test Plan
+Sample Test plan for the Online shopping mall Web Application
+Sample Test Requirement-Functional Requirements
+Sample Test Case
+Object Recognition
+Object Recognition Technology-Automation Testing
+Understanding Selenium through 'Machine Learning Technology'
+
+This book best describes on how to use automation tools to build the frameworks for most wanted test automation job! Effectively a solid book to get an interview call for automation tester role; Also this book is a best fit for college students to study as part of Software Testing course and wanted to be 'Junior Test Analyst', 'Automation Tester', 'Developer in Test'  in IT Industry!
+
+Software Automation  Testing Secrets Revealed, is recommended for those aspiring to be experts or advanced users by Automate Software Applications using Selenium Web Driver using Java, Selenium Web Driver using Dot Net, Selenium IDE, AutoIT, Cucumber, Specflow, BDD, TDD, Jenkins, NUnit, ReportUnit, XSLT Reporting, Maven,Jason Phantom Ghost Driver, TestNG, JUnit, Ant, Eclipse, Team Foundation Server, Visual Studio, HP Unified Functional Testing (formerly Quick Test Professional),Ranorex, IBM Rational Functional Test, Excel VBA Automation, Excel Objects Automation, SOA Testing-SOAP UI Automation, ETL Testing and SQL Testing for Agile-Continuous Integration. 
+
+More on: 
+https://www.facebook.com/softwareautomationtestingsecretsrevealed/
+
+Quotes from Reviewers:
+" Encyclopedia of all automation tools !!"
+-Raghavendra mesta, Wipro Technologies;
+"I, as a professional Automation Tester often fall in situations where we need to take call on what automation solution to employ for a project that would be most effective and efficient at the same time. But it is hard to take such decisions with limited insight and knowledge of the available tools for automated testing in the market today. The book here by Narayanan provides a panoramic view into these tools, thus empowering the reader to take more educated decisions to provide better automation test solutions."-Sohag Satpati;
+"With growing trends of companies rapidly moving towards automation testing , having automation skills are no more considered just a "good to have skill". IT professionals who wants to have a career in automation testing, this book is a great start to kick off as Narayanan Palani has explained in detail the fundamentals of automation. This book is a great guide to learn automation."
+-Rajavarman Rajendran, Test Specialist, USBANK;
+“This is one among the best books in the field of Automation testing. This smartly demonstrates a nice blend of automation tools and its efficiency. A must read for testing professionals for enriching their proficiency and mastering the automation world”
+ -Satyadip Das, Test manager, Lloyds Banking Group
+ 
+ 
+ 
+ 
+ 

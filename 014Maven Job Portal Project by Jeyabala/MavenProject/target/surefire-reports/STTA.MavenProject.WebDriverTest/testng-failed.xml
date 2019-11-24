@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [STTA.MavenProject.WebDriverTest]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="STTA.MavenProject.WebDriverTest">
+        <methods>
+          <include name="verifySearch"/>
+        </methods>
+      </class> <!-- STTA.MavenProject.WebDriverTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [STTA.MavenProject.WebDriverTest] -->

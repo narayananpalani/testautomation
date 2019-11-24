@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="6" total="13" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="67336" started-at="2018-10-31T09:54:28Z" finished-at="2018-10-31T09:55:36Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="67336" started-at="2018-10-31T09:54:28Z" finished-at="2018-10-31T09:55:36Z">
+      <class name="com.qa.TestCase.AmazonLoginPageTest">
+        <test-method status="PASS" signature="ReportSetup()[pri:0, instance:com.qa.TestCase.AmazonLoginPageTest@5792a0]" name="ReportSetup" is-config="true" duration-ms="1377" started-at="2018-10-31T09:53:43Z" finished-at="2018-10-31T09:53:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReportSetup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.TestCase.AmazonLoginPageTest@5792a0]" name="setup" is-config="true" duration-ms="43665" started-at="2018-10-31T09:53:45Z" depends-on-methods="com.qa.BaseClass.BaseClass.ReportSetup" finished-at="2018-10-31T09:54:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="AmazonLogoTest()[pri:1, instance:com.qa.TestCase.AmazonLoginPageTest@5792a0]" name="AmazonLogoTest" duration-ms="2352" started-at="2018-10-31T09:54:29Z" description="Validation of Logo On Amazon Home Page" finished-at="2018-10-31T09:54:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AmazonLogoTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.qa.TestCase.AmazonLoginPageTest@5792a0]" name="getResult" is-config="true" duration-ms="54" started-at="2018-10-31T09:54:32Z" finished-at="2018-10-31T09:54:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AmazonLogoTest status=SUCCESS method=AmazonLoginPageTest.AmazonLogoTest()[pri:1, instance:com.qa.TestCase.AmazonLoginPageTest@5792a0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="ConsumerPortalTittle()[pri:2, instance:com.qa.TestCase.AmazonLoginPageTest@5792a0]" name="ConsumerPortalTittle" duration-ms="169" started-at="2018-10-31T09:54:32Z" description="Validation of Tittle On Amazon Home Page" finished-at="2018-10-31T09:54:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConsumerPortalTittle -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.qa.TestCase.AmazonLoginPageTest@5792a0]" name="getResult" is-config="true" duration-ms="1" started-at="2018-10-31T09:54:32Z" finished-at="2018-10-31T09:54:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ConsumerPortalTittle status=SUCCESS method=AmazonLoginPageTest.ConsumerPortalTittle()[pri:2, instance:com.qa.TestCase.AmazonLoginPageTest@5792a0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="ConsumerLogoTest()[pri:3, instance:com.qa.TestCase.AmazonLoginPageTest@5792a0]" name="ConsumerLogoTest" duration-ms="18501" started-at="2018-10-31T09:54:32Z" description="Amazon Customer Login Page" finished-at="2018-10-31T09:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConsumerLogoTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.qa.TestCase.AmazonLoginPageTest@5792a0]" name="getResult" is-config="true" duration-ms="0" started-at="2018-10-31T09:54:50Z" finished-at="2018-10-31T09:54:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ConsumerLogoTest status=SUCCESS method=AmazonLoginPageTest.ConsumerLogoTest()[pri:3, instance:com.qa.TestCase.AmazonLoginPageTest@5792a0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Exit()[pri:0, instance:com.qa.TestCase.AmazonLoginPageTest@5792a0]" name="Exit" is-config="true" duration-ms="1156" started-at="2018-10-31T09:55:35Z" finished-at="2018-10-31T09:55:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Exit -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.qa.TestCase.AmazonLoginPageTest@5792a0]" name="endReport" is-config="true" duration-ms="1232" started-at="2018-10-31T09:55:36Z" finished-at="2018-10-31T09:55:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.qa.TestCase.AmazonLoginPageTest -->
+      <class name="com.qa.TestCase.DashBoardPageTest">
+        <test-method status="PASS" signature="AmazonSearchPage()[pri:4, instance:com.qa.TestCase.DashBoardPageTest@132ec19]" name="AmazonSearchPage" duration-ms="12521" started-at="2018-10-31T09:54:50Z" description="Search and get the list of all Footwear along with price on amazon Page" finished-at="2018-10-31T09:55:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AmazonSearchPage -->
+        <test-method status="PASS" signature="ClickonContactPage()[pri:5, instance:com.qa.TestCase.DashBoardPageTest@132ec19]" name="ClickonContactPage" duration-ms="17482" started-at="2018-10-31T09:55:03Z" description="Search and get the list of all Footwear along with price on amazon Page" finished-at="2018-10-31T09:55:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickonContactPage -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.qa.TestCase.DashBoardPageTest@132ec19]" name="getResult" is-config="true" duration-ms="0" started-at="2018-10-31T09:55:03Z" finished-at="2018-10-31T09:55:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AmazonSearchPage status=SUCCESS method=DashBoardPageTest.AmazonSearchPage()[pri:4, instance:com.qa.TestCase.DashBoardPageTest@132ec19] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.qa.TestCase.DashBoardPageTest@132ec19]" name="getResult" is-config="true" duration-ms="0" started-at="2018-10-31T09:55:20Z" finished-at="2018-10-31T09:55:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickonContactPage status=SUCCESS method=DashBoardPageTest.ClickonContactPage()[pri:5, instance:com.qa.TestCase.DashBoardPageTest@132ec19] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.qa.TestCase.DashBoardPageTest -->
+      <class name="com.qa.TestCase.CustomerHelpPageTest">
+        <test-method status="PASS" signature="DashBoardIntialize()[pri:0, instance:com.qa.TestCase.CustomerHelpPageTest@c4039c]" name="DashBoardIntialize" is-config="true" duration-ms="290" started-at="2018-10-31T09:54:29Z" finished-at="2018-10-31T09:54:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DashBoardIntialize -->
+        <test-method status="PASS" signature="DashBoardIntialize()[pri:0, instance:com.qa.TestCase.DashBoardPageTest@132ec19]" name="DashBoardIntialize" is-config="true" duration-ms="54" started-at="2018-10-31T09:54:29Z" finished-at="2018-10-31T09:54:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DashBoardIntialize -->
+        <test-method status="PASS" signature="ConsumerLogoTest()[pri:7, instance:com.qa.TestCase.CustomerHelpPageTest@c4039c]" name="ConsumerLogoTest" duration-ms="10565" started-at="2018-10-31T09:55:20Z" description="MouseHover to Department and Select Baby Products" finished-at="2018-10-31T09:55:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConsumerLogoTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.qa.TestCase.CustomerHelpPageTest@c4039c]" name="getResult" is-config="true" duration-ms="1" started-at="2018-10-31T09:55:31Z" finished-at="2018-10-31T09:55:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ConsumerLogoTest status=SUCCESS method=CustomerHelpPageTest.ConsumerLogoTest()[pri:7, instance:com.qa.TestCase.CustomerHelpPageTest@c4039c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="AmazonLogout()[pri:8, instance:com.qa.TestCase.CustomerHelpPageTest@c4039c]" name="AmazonLogout" duration-ms="3658" started-at="2018-10-31T09:55:31Z" description="MouseHover and Logout Page From Amazon" finished-at="2018-10-31T09:55:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AmazonLogout -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.qa.TestCase.CustomerHelpPageTest@c4039c]" name="getResult" is-config="true" duration-ms="1" started-at="2018-10-31T09:55:35Z" finished-at="2018-10-31T09:55:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AmazonLogout status=SUCCESS method=CustomerHelpPageTest.AmazonLogout()[pri:8, instance:com.qa.TestCase.CustomerHelpPageTest@c4039c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.qa.TestCase.CustomerHelpPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

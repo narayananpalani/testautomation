@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="RefactoringWizard.preview">
+		<item value="600" key="width"/>
+		<item value="400" key="height"/>
+	</section>
+	<section name="org.eclipse.ltk.ui.refactoring.settings">
+	</section>
+	<section name="RefactoringWizard.Externalize strings in &apos;Mytest.java&apos;">
+		<item value="600" key="width"/>
+		<item value="470" key="height"/>
+	</section>
+</section>

@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="3" failed="2" total="6" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SuiteOne" duration-ms="25705" started-at="2015-09-20T12:55:43Z" finished-at="2015-09-20T12:56:08Z">
+    <groups>
+    </groups>
+    <test name="SuiteOneCaseOne" duration-ms="25580" started-at="2015-09-20T12:55:43Z" finished-at="2015-09-20T12:56:08Z">
+      <class name="com.stta.SuiteOne.SuiteOneCaseOne">
+        <test-method status="PASS" signature="checkCaseToRun()[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseOne@3f0ee7cb]" name="checkCaseToRun" is-config="true" duration-ms="58" started-at="2015-09-20T13:55:43Z" finished-at="2015-09-20T13:55:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCaseToRun -->
+        <test-method status="PASS" signature="SuiteOneCaseOneTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseOne@3f0ee7cb]" name="SuiteOneCaseOneTest" duration-ms="25002" started-at="2015-09-20T13:55:43Z" data-provider="SuiteOneCaseOneData" finished-at="2015-09-20T13:56:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shivani Srivastava]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[shivani.1378@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7459360045]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Vicapri]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[30000]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[21]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuiteOneCaseOneTest -->
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseOne@3f0ee7cb]" name="reporterDataResults" is-config="true" duration-ms="16" started-at="2015-09-20T13:56:08Z" finished-at="2015-09-20T13:56:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporterDataResults -->
+        <test-method status="SKIP" signature="SuiteOneCaseOneTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseOne@3f0ee7cb]" name="SuiteOneCaseOneTest" duration-ms="3" started-at="2015-09-20T13:56:08Z" data-provider="SuiteOneCaseOneData" finished-at="2015-09-20T13:56:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[13]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[DataToRun for row number 1 Is No Or Blank. So Skipping Its Execution.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: DataToRun for row number 1 Is No Or Blank. So Skipping Its Execution.
+	at com.stta.SuiteOne.SuiteOneCaseOne.SuiteOneCaseOneTest(SuiteOneCaseOne.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1220)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuiteOneCaseOneTest -->
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseOne@3f0ee7cb]" name="reporterDataResults" is-config="true" duration-ms="16" started-at="2015-09-20T13:56:08Z" finished-at="2015-09-20T13:56:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporterDataResults -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseOne@3f0ee7cb]" name="closeBrowser" is-config="true" duration-ms="38" started-at="2015-09-20T13:56:08Z" finished-at="2015-09-20T13:56:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.stta.SuiteOne.SuiteOneCaseOne -->
+    </test> <!-- SuiteOneCaseOne -->
+    <test name="SuiteOneCaseTwo" duration-ms="55" started-at="2015-09-20T12:56:08Z" finished-at="2015-09-20T12:56:08Z">
+      <class name="com.stta.SuiteOne.SuiteOneCaseTwo">
+        <test-method status="PASS" signature="checkSuiteToRun()[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseTwo@36d64342]" name="checkSuiteToRun" is-config="true" duration-ms="706" started-at="2015-09-20T13:55:42Z" finished-at="2015-09-20T13:55:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSuiteToRun -->
+        <test-method status="SKIP" signature="checkCaseToRun()[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseTwo@36d64342]" name="checkCaseToRun" is-config="true" duration-ms="0" started-at="2015-09-20T13:56:08Z" finished-at="2015-09-20T13:56:08Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[SuiteOneCaseTwo's CaseToRun Flag Is 'N' Or Blank. So Skipping Execution Of SuiteOneCaseTwo]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: SuiteOneCaseTwo's CaseToRun Flag Is 'N' Or Blank. So Skipping Execution Of SuiteOneCaseTwo
+	at com.stta.SuiteOne.SuiteOneCaseTwo.checkCaseToRun(SuiteOneCaseTwo.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+	at org.testng.TestRunner.run(TestRunner.java:609)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1220)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCaseToRun -->
+        <test-method status="SKIP" signature="SuiteOneCaseTwoTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseTwo@36d64342]" name="SuiteOneCaseTwoTest" duration-ms="1" started-at="2015-09-20T13:56:08Z" data-provider="SuiteOneCaseTwoData" finished-at="2015-09-20T13:56:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shivani Srivastava]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuiteOneCaseTwoTest -->
+        <test-method status="SKIP" signature="reporterDataResults()[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseTwo@36d64342]" name="reporterDataResults" is-config="true" duration-ms="0" started-at="2015-09-20T13:56:08Z" finished-at="2015-09-20T13:56:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporterDataResults -->
+        <test-method status="SKIP" signature="SuiteOneCaseTwoTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseTwo@36d64342]" name="SuiteOneCaseTwoTest" duration-ms="1" started-at="2015-09-20T13:56:08Z" data-provider="SuiteOneCaseTwoData" finished-at="2015-09-20T13:56:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[-3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuiteOneCaseTwoTest -->
+        <test-method status="SKIP" signature="reporterDataResults()[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseTwo@36d64342]" name="reporterDataResults" is-config="true" duration-ms="0" started-at="2015-09-20T13:56:08Z" finished-at="2015-09-20T13:56:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporterDataResults -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseTwo@36d64342]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2015-09-20T13:56:08Z" finished-at="2015-09-20T13:56:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.stta.SuiteOne.SuiteOneCaseTwo -->
+    </test> <!-- SuiteOneCaseTwo -->
+  </suite> <!-- SuiteOne -->
+  <suite name="Calc Suite" duration-ms="0" started-at="2015-09-20T12:56:10Z" finished-at="2015-09-20T12:56:10Z">
+    <groups>
+    </groups>
+  </suite> <!-- Calc Suite -->
+  <suite name="SuiteTwo" duration-ms="53" started-at="2015-09-20T12:56:08Z" finished-at="2015-09-20T12:56:09Z">
+    <groups>
+    </groups>
+    <test name="SuiteTwoCaseOne" duration-ms="8" started-at="2015-09-20T12:56:08Z" finished-at="2015-09-20T12:56:08Z">
+      <class name="com.stta.SuiteTwo.SuiteTwoCaseOne">
+        <test-method status="SKIP" signature="checkCaseToRun()[pri:0, instance:com.stta.SuiteTwo.SuiteTwoCaseOne@7e0ea639]" name="checkCaseToRun" is-config="true" duration-ms="0" started-at="2015-09-20T13:56:08Z" finished-at="2015-09-20T13:56:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCaseToRun -->
+        <test-method status="FAIL" signature="SuiteTwoCaseOneTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.SuiteTwo.SuiteTwoCaseOne@7e0ea639]" name="SuiteTwoCaseOneTest" duration-ms="0" started-at="2015-09-20T13:56:08Z" data-provider="SuiteTwoCaseOneData" finished-at="2015-09-20T13:56:08Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.NullPointerException]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:161)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:429)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1220)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: java.lang.NullPointerException
+	at com.stta.utility.SuiteUtility.GetTestDataUtility(SuiteUtility.java:22)
+	at com.stta.SuiteTwo.SuiteTwoCaseOne.SuiteTwoCaseOneData(SuiteTwoCaseOne.java:131)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:135)
+	... 21 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuiteTwoCaseOneTest -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.stta.SuiteTwo.SuiteTwoCaseOne@7e0ea639]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2015-09-20T13:56:08Z" finished-at="2015-09-20T13:56:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.stta.SuiteTwo.SuiteTwoCaseOne -->
+    </test> <!-- SuiteTwoCaseOne -->
+    <test name="SuiteTwoCaseTwo" duration-ms="4" started-at="2015-09-20T12:56:09Z" finished-at="2015-09-20T12:56:09Z">
+      <class name="com.stta.SuiteTwo.SuiteTwoCaseTwo">
+        <test-method status="SKIP" signature="checkSuiteToRun()[pri:0, instance:com.stta.SuiteTwo.SuiteTwoCaseTwo@2acf57e3]" name="checkSuiteToRun" is-config="true" duration-ms="0" started-at="2015-09-20T13:56:08Z" finished-at="2015-09-20T13:56:08Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[SuiteTwo's SuiteToRun Flag Is 'N' Or Blank. So Skipping Execution Of SuiteTwo]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: SuiteTwo's SuiteToRun Flag Is 'N' Or Blank. So Skipping Execution Of SuiteTwo
+	at com.stta.SuiteTwo.SuiteTwoBase.checkSuiteToRun(SuiteTwoBase.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:277)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1220)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSuiteToRun -->
+        <test-method status="SKIP" signature="checkCaseToRun()[pri:0, instance:com.stta.SuiteTwo.SuiteTwoCaseTwo@2acf57e3]" name="checkCaseToRun" is-config="true" duration-ms="0" started-at="2015-09-20T13:56:09Z" finished-at="2015-09-20T13:56:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCaseToRun -->
+        <test-method status="FAIL" signature="SuiteTwoCaseTwoTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.SuiteTwo.SuiteTwoCaseTwo@2acf57e3]" name="SuiteTwoCaseTwoTest" duration-ms="0" started-at="2015-09-20T13:56:09Z" data-provider="SuiteTwoCaseTwoData" finished-at="2015-09-20T13:56:09Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.NullPointerException]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:161)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:429)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1220)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: java.lang.NullPointerException
+	at com.stta.utility.SuiteUtility.GetTestDataUtility(SuiteUtility.java:22)
+	at com.stta.SuiteTwo.SuiteTwoCaseTwo.SuiteTwoCaseTwoData(SuiteTwoCaseTwo.java:131)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:135)
+	... 21 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuiteTwoCaseTwoTest -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.stta.SuiteTwo.SuiteTwoCaseTwo@2acf57e3]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2015-09-20T13:56:09Z" finished-at="2015-09-20T13:56:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.stta.SuiteTwo.SuiteTwoCaseTwo -->
+    </test> <!-- SuiteTwoCaseTwo -->
+  </suite> <!-- SuiteTwo -->
+</testng-results>

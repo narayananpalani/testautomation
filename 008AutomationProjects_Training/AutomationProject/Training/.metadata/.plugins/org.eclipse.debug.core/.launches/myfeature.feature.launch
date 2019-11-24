@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="cucumber.eclipse.launching.localCucumberFeature">
+<stringAttribute key="cucumber feature" value="E:/AutomationProject/Training/CucumberTestProject/src/cucumber/features/myfeature.feature"/>
+<stringAttribute key="glue path" value="classpath:"/>
+<booleanAttribute key="is html formatter?" value="false"/>
+<booleanAttribute key="is json formatter?" value="false"/>
+<booleanAttribute key="is junit formatter" value="false"/>
+<booleanAttribute key="is monochrome?" value="true"/>
+<booleanAttribute key="is pretty formatter?" value="true"/>
+<booleanAttribute key="is progress formatter?" value="false"/>
+<booleanAttribute key="is rerun formatter" value="false"/>
+<booleanAttribute key="is usage formatter" value="false"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="CucumberTestProject"/>
+<booleanAttribute key="pde.generated.config" value="true"/>
+</launchConfiguration>

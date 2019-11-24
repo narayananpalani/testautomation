@@ -1,0 +1,27 @@
+2015-09-13 16:02:02,662 - rootLogger - INFO - All Excel Files Initialised successfully.
+2015-09-13 16:02:02,671 - rootLogger - INFO - Param.properties file loaded successfully.
+2015-09-13 16:02:02,672 - rootLogger - INFO - Objects.properties file loaded successfully.
+2015-09-13 16:02:02,672 - rootLogger - INFO - Execution started for SuiteOneBase.
+2015-09-13 16:02:02,818 - rootLogger - INFO - All Excel Files Initialised successfully.
+2015-09-13 16:02:02,819 - rootLogger - INFO - Param.properties file loaded successfully.
+2015-09-13 16:02:02,820 - rootLogger - INFO - Objects.properties file loaded successfully.
+2015-09-13 16:02:02,821 - rootLogger - INFO - SuiteOneCaseOne : Execution started.
+2015-09-13 16:02:21,541 - rootLogger - INFO - Firefox Driver Instance loaded successfully.
+2015-09-13 16:02:30,480 - rootLogger - INFO - SuiteOneCaseOne : Reporting test data set line 1 as FAIL In excel.
+2015-09-13 16:02:30,500 - rootLogger - INFO - SuiteOneCaseOne : DataToRun = N for data set line 2 So skipping Its execution.
+2015-09-13 16:02:30,507 - rootLogger - INFO - SuiteOneCaseOne : Reporting test data set line 2 as SKIP In excel.
+2015-09-13 16:02:30,550 - rootLogger - INFO - SuiteOneCaseOne : Reporting test case as FAIL In excel.
+2015-09-13 16:02:30,633 - rootLogger - INFO - All Excel Files Initialised successfully.
+2015-09-13 16:02:30,634 - rootLogger - INFO - Param.properties file loaded successfully.
+2015-09-13 16:02:30,635 - rootLogger - INFO - Objects.properties file loaded successfully.
+2015-09-13 16:02:48,022 - rootLogger - INFO - Firefox Driver Instance loaded successfully.
+2015-09-13 16:02:54,951 - rootLogger - INFO - All Excel Files Initialised successfully.
+2015-09-13 16:02:54,953 - rootLogger - INFO - Param.properties file loaded successfully.
+2015-09-13 16:02:54,954 - rootLogger - INFO - Objects.properties file loaded successfully.
+2015-09-13 16:02:54,986 - rootLogger - INFO - All Excel Files Initialised successfully.
+2015-09-13 16:02:54,987 - rootLogger - INFO - Param.properties file loaded successfully.
+2015-09-13 16:02:54,989 - rootLogger - INFO - Objects.properties file loaded successfully.
+2015-09-13 16:02:55,081 - rootLogger - INFO - All Excel Files Initialised successfully.
+2015-09-13 16:02:55,082 - rootLogger - INFO - Param.properties file loaded successfully.
+2015-09-13 16:02:55,083 - rootLogger - INFO - Objects.properties file loaded successfully.
+2015-09-13 16:03:07,133 - rootLogger - INFO - Firefox Driver Instance loaded successfully.

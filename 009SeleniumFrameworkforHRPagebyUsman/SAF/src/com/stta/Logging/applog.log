@@ -1,0 +1,13 @@
+2015-09-13 12:20:33,825 - rootLogger - INFO - All Excel Files Initialised successfully.
+2015-09-13 12:20:33,825 - rootLogger - INFO - Param.properties file loaded successfully.
+2015-09-13 12:20:33,825 - rootLogger - INFO - Objects.properties file loaded successfully.
+2015-09-13 12:20:33,825 - rootLogger - INFO - Execution started for SuiteOneBase.
+2015-09-13 12:20:33,965 - rootLogger - INFO - All Excel Files Initialised successfully.
+2015-09-13 12:20:33,965 - rootLogger - INFO - Param.properties file loaded successfully.
+2015-09-13 12:20:33,965 - rootLogger - INFO - Objects.properties file loaded successfully.
+2015-09-13 12:20:33,965 - rootLogger - INFO - SuiteOneCaseOne : Execution started.
+2015-09-13 12:20:34,528 - rootLogger - INFO - SuiteOneCaseOne : Reporting test data set line 1 as PASS In excel.
+2015-09-13 12:20:34,623 - rootLogger - INFO - SuiteOneCaseOne : Reporting test data set line 2 as PASS In excel.
+2015-09-13 12:20:34,794 - rootLogger - INFO - All Excel Files Initialised successfully.
+2015-09-13 12:20:34,794 - rootLogger - INFO - Param.properties file loaded successfully.
+2015-09-13 12:20:34,794 - rootLogger - INFO - Objects.properties file loaded successfully.

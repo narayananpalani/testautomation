@@ -1,0 +1,13 @@
+ #Find More Tutorials On WebDriver at -> http://software-testing-tutorials-automation.blogspot.com
+
+#Web Application URL
+#siteURL=https://docs.google.com/forms/d/1vlQmYGyNXYMPhuLRSAJ25LtWNeZyzYxXYMdz7WUo98w/viewform?c=0&w=1
+siteURL=http://www.indeed.co.uk/
+#siteURL=http://only-testing-blog.blogspot.com
+
+#set Mozilla or Chrome or IE
+testBrowser=Mozilla
+
+#Set Screenshot flags "Yes" or "No"
+screenShotOnFail=no
+screenShotOnPass=no

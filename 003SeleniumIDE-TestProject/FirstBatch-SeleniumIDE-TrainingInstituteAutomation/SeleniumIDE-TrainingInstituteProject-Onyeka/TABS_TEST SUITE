@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+  <title>Test Suite</title>
+</head>
+<body>
+<table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>
+<tr><td><b>Test Suite</b></td></tr>
+<tr><td><a href="TAB_SAP COURSES.HTML">TAB_SAP COURSES</a></td></tr>
+<tr><td><a href="TAB_TESTING COURSES_SOFTWARE TEST ANALYST PROGRAM.HTML">TAB_TESTING COURSES_SOFTWARE TEST ANALYST PROGRAM</a></td></tr>
+<tr><td><a href="TAB_TESTING COURSES_TRAINING_ISEB ISTQB FOUNDATION SOFTWARE TESTING.HTML">TAB_TESTING COURSES_TRAINING_ISEB ISTQB FOUNDATION SOFTWARE TESTING</a></td></tr>
+<tr><td><a href="TAB_TESTING COURSES_TRAINING_SELENIUM TESTING.HTML">TAB_TESTING COURSES_TRAINING_SELENIUM TESTING</a></td></tr>
+<tr><td><a href="TAB_TESTING COURSES_INTENSHIP PROGRAM.HTML">TAB_TESTING COURSES_INTENSHIP PROGRAM</a></td></tr>
+<tr><td><a href="TAB_SAP INFOR_UPCOMING COURSES.HTML">TAB_SAP INFOR_UPCOMING COURSES</a></td></tr>
+<tr><td><a href="TAB_SAP INFOR_SAP EDUCATION.HTML">TAB_SAP INFOR_SAP EDUCATION</a></td></tr>
+<tr><td><a href="TAB_CERTIFICATION.HTML">TAB_CERTIFICATION</a></td></tr>
+<tr><td><a href="TAB_INTENSHIP.HTML">TAB_INTENSHIP</a></td></tr>
+<tr><td><a href="TAB_COMPANIES USING SAP.HTML">TAB_COMPANIES USING SAP</a></td></tr>
+<tr><td><a href="TAB_COURSE FEES LIST.HTML">TAB_COURSE FEES LIST</a></td></tr>
+<tr><td><a href="TAB_REGISTRATION.HTML">TAB_REGISTRATION</a></td></tr>
+<tr><td><a href="TAB_ONLINE TRAINING.HTML">TAB_ONLINE TRAINING</a></td></tr>
+<tr><td><a href="TAB_CURRENT OPENINGS.HTML">TAB_CURRENT OPENINGS</a></td></tr>
+<tr><td><a href="TAB_CAREER ADVICE.HTML">TAB_CAREER ADVICE</a></td></tr>
+<tr><td><a href="TAB_BPC CONSULTANT.HTML">TAB_BPC CONSULTANT</a></td></tr>
+<tr><td><a href="TAB_HANA CONSULTANT.HTML">TAB_HANA CONSULTANT</a></td></tr>
+<tr><td><a href="BI CONSULTANT.HTML">BI CONSULTANT</a></td></tr>
+<tr><td><a href="FI CONSULTANT.html">FI CONSULTANT</a></td></tr>
+<tr><td><a href="BW DEVELOPER.html">BW DEVELOPER</a></td></tr>
+<tr><td><a href="SOFTWARE TESTING.html">SOFTWARE TESTING</a></td></tr>
+<tr><td><a href="TEST ANALYST.html">TEST ANALYST</a></td></tr>
+<tr><td><a href="QUALITY CONTROL.html">QUALITY CONTROL</a></td></tr>
+</tbody></table>
+</body>
+</html>

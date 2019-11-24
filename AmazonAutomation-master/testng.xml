@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.qa.lib.RetryListenerClass" />
+		<listener class-name="com.qa.lib.ListnerImpl" />
+	</listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.qa.TestCase.AmazonLoginPageTest" />
+			<class name="com.qa.TestCase.DashBoardPageTest" />
+			<class name="com.qa.TestCase.CustomerHelpPageTest" />
+			
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

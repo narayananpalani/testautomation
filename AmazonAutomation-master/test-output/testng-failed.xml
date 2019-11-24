@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.qa.lib.RetryListenerClass"/>
+    <listener class-name="com.qa.lib.ListnerImpl"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.qa.TestCase.AmazonLoginPageTest">
+        <methods>
+          <include name="ConsumerLogoTest"/>
+          <include name="getResult"/>
+          <include name="Exit"/>
+          <include name="ReportSetup"/>
+          <include name="endReport"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.qa.TestCase.AmazonLoginPageTest -->
+      <class name="com.qa.TestCase.CustomerHelpPageTest">
+        <methods>
+          <include name="getResult"/>
+          <include name="AmazonLogout"/>
+          <include name="ConsumerLogoTest"/>
+          <include name="Exit"/>
+          <include name="ReportSetup"/>
+          <include name="endReport"/>
+          <include name="DashBoardIntialize"/>
+        </methods>
+      </class> <!-- com.qa.TestCase.CustomerHelpPageTest -->
+      <class name="com.qa.TestCase.DashBoardPageTest">
+        <methods>
+          <include name="ClickonContactPage"/>
+          <include name="getResult"/>
+          <include name="DashBoardIntialize"/>
+          <include name="Exit"/>
+          <include name="ReportSetup"/>
+          <include name="endReport"/>
+        </methods>
+      </class> <!-- com.qa.TestCase.DashBoardPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
